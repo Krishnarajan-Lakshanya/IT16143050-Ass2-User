@@ -181,16 +181,6 @@ public class User {
 		return output;
 	}
 
-	public static void main(String args[]) {
-		User ins = new User();
 
-		// ins.insertUser("bb", "nnn", "kkk", "sss", "aaa", "sss");
-		// ins.insertUser("ok", "ok", "ok", "ok", "ok", "ok", "ok");
-		// ins.readUser();
-		ins.deleteUser("61");
-		// ins.deleteUser(81);
-		// ins.UpdateUser( "44", "ppaass", "111", "sss", "sssdw", "ff", "sss", "ccc");
-
-	}
 
 }
