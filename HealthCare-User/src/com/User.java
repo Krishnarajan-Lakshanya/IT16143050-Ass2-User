@@ -5,7 +5,7 @@ import java.sql.*;
 //import com.mysql.jdbc.PreparedStatement.*;
 //import com.mysql.jdbc.Statement;
 
-public class Users {
+public class User {
 
 	public Connection connect() {
 		Connection con = null;
@@ -182,7 +182,7 @@ public class Users {
 	}
 
 	public static void main(String args[]) {
-		Users ins = new Users();
+		User ins = new User();
 
 		// ins.insertUser("bb", "nnn", "kkk", "sss", "aaa", "sss");
 		// ins.insertUser("ok", "ok", "ok", "ok", "ok", "ok", "ok");

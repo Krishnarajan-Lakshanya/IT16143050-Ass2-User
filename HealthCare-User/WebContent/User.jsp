@@ -1,4 +1,4 @@
-<%@page import="com.Users"%>
+<%@page import="com.User"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
@@ -14,7 +14,7 @@
 </head>
 <body>
 	<nav class="navbar navbar-expand-lg navbar-dark primary-color">
-		<a class="navbar-brand" href="#">Hospital Management System</a>
+		<a class="navbar-brand" href="#">Hospital User Admin System</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse"
 			data-target="#navbarNav" aria-controls="navbarNav"
 			aria-expanded="false" aria-label="Toggle navigation">
@@ -39,7 +39,7 @@
 				<form id="formUser" name="form-control" action="Users.jsp"
 					method="post">
 					<br> <br>
-					<h2 class="text-center">User Management Page</h2>
+					<h2 class="text-center">User Admin Page</h2>
 					<div class="form-group has-error">
 						<input type="text" class="form-control" id="userID" name=userID
 							placeholder="ID" required="required" disabled>
@@ -91,8 +91,8 @@
 				<div id="divDoGrid">
 
 						<%
-							Users user = new Users();
-							out.print(user.readUser());
+							User user = new User();
+											out.print(user.readUser());
 						%>
 				</div>
 
