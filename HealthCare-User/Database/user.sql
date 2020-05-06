@@ -174,7 +174,7 @@ INSERT INTO `pharmacy` (`RECORD_ID`, `ROLE_CODE`, `PHARMACY_ID`, `PHARMACY_NAME`
 --
 -- Table structure for table `user`
 --
-
+/*this is the table used here*/
 CREATE TABLE `user` (
   `RECORD_ID` int(11) NOT NULL,
   `ROLE_CODE` int(10) DEFAULT NULL,
